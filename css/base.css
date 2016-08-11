@@ -1,0 +1,29 @@
+body {
+  background: #FFF url(http://www.drakenhart-studios.net/resume/bg-main.png) repeat;
+ }
+
+#wrapper {
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 90%;
+}
+#site-header, #site-footer, main {
+  border: 2px solid orange;
+}
+#main-nav, #footer-aside, article {
+  border: 2px dashed blue;
+}
+#resume-head, #resume-foot, section {
+  border: 2px dashed green;
+}
+/* Accessibility CSS */ 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
