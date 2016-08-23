@@ -1,3 +1,4 @@
 name: CSS Resume Garden
 markdown: kramdown
+timezone: America/New_York
 permalink: /blog/:year/:month/:day/:title
