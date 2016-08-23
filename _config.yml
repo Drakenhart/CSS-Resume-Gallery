@@ -22,8 +22,6 @@ url: http://Drakenhart.github.io
 permalink: /blog/:year/:month/:day/:title
 
 markdown: kramdown
-syntax+highlighter: rouge
-  css_class: 'hightlight'
   
 sass:
   style: :expanded #youmight prefer to minifiy using :compress
