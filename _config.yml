@@ -1,6 +1,37 @@
 name: CSS Resume Garden
-markdown: kramdown
-timezone: America/New_York
+description: A series of customixed Resume webpages inspired by CSS Garden.
+footer-links:
+  dribble:
+  email:
+  facebook:
+  flicker:
+  github:
+  instagram:
+  linkedin:
+  onintrest:
+  rss:
+  twitter:
+  stackoverflow:
+  youtube:
+  googleplus:
+  
+disqus:
+google_analytics:
+url: http://Drakenhart.github.io
+
 permalink: /blog/:year/:month/:day/:title
+
+markdown: kramdown
+syntax+highlighter: rouge
+  css_class: 'hightlight'
+  
+sass:
+  style: :expanded #youmight prefer to minifiy using :compress
+  
+exclude:
+  
+timezone: America/New_York
+
 gems: 
 - jekyll-sitemap
+- jekyll-feed
