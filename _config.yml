@@ -1,6 +1,5 @@
--w, --[no-]watch
-name: CSS Resume Garden
-description: A series of customixed Resume webpages inspired by CSS Garden.
+name: "CSS Resume Garden"
+description: "A series of customized Resume webpages inspired by CSS Garden."
 google_analytics:
 url: http://Drakenhart.github.io
 
@@ -36,4 +35,3 @@ timezone: America/New_York
 gems: 
 - jekyll-sitemap
 - jekyll-feed
-
