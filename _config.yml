@@ -22,9 +22,6 @@ footer-links:
   
 disqus:
 
-
-markdown: kramdown
-  
 sass:
   style: :expanded #youmight prefer to minifiy using :compress
   
@@ -32,6 +29,14 @@ exclude:
   
 timezone: America/New_York
 
-gems: 
-- jekyll-sitemap
-- jekyll-feed
+markdown: kramdown
+
+ github: [metadata]
+ kramdown:
+   input: GFM
+   hard_wrap: false
+ gems:
+   - jekyll-coffeescript
+   - jekyll-paginate
+   - jekyll-sitemap
+  - jekyll-feed
